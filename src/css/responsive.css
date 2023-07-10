@@ -1,0 +1,51 @@
+@media (max-width: 1120px) { /* a partir desse tamanho de tela todos tamanhos menos aplica as regras a seguir */
+    /* tamanho do cabeçalho precisa diminuir junto com a tela */
+    .cabecalho .logo {
+        max-width: 190px;
+    }
+
+    /* a lista de personagems precisam continuar ficando uma ao lado da outra e facilitar a visualização */
+    .selecao-de-personagens {
+        flex-direction: column; /* padrão do flex-direction é linha um ao lado do outro, mudamos para colum para ficar um do lado do outro, o wrap que ja tem vai quebra de linha */
+    }
+
+    /* o box do personagem grande tem que vir primeiro e ficar em cima da lista de personagens */
+    .selecao-de-personagens {
+        flex-direction: column-reverse;
+        max-width: 430px; /* definir tamanho maximo conforme diminui */
+        margin: 0 auto; /*  margin 0 auto vai tirar margin em cima e baixao e o restante vai destribuir igual centralizado*/
+    }
+
+    /* dar um espaço para seção de personagens selecionaveis nao ficar colado no texto do personagem grande acima */
+    .selecao-de-personagens .personagens {
+        margin-top: 37px;;
+    }
+
+    /* tamanho da fonte dos titulos são menores no responsivo */
+    .selecao-de-personagens .personagens .titulo {
+        font-size: 15px;
+    }
+
+    /* espaçamento entre os cards diminui também */
+    .selecao-de-personagens .lista-de-personagens {
+        gap: 9px;
+    }
+
+    /* diminuir um pouco os cards de personagens */
+    .selecao-de-personagens .personagens img {
+        width: 80px;
+    }
+
+    /* diminuir um pouco o personagem grande */
+    .personagem-selecionado .personagem-grande {
+        width: 350px;
+        height: 350px;
+    }
+
+    /* diminuir titulo do personagem grande e o texto */
+    .personagem-selecionado .descricao-personagem {
+        width: 80%; /* vai ocupar 80% do elemento pai */
+        font-size: 16px; /* diminui a fonte */
+        margin: 20px auto;  /* da um espaço entre o titulo e o testo e centraliza o texto */
+    }
+}
