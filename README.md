@@ -1,1 +1,1 @@
-:heavy_check_mark: Hello, world! :heavy_check_mark:
+![Texto animado](URL_DO_SEU_GIF_ANIMADO)
