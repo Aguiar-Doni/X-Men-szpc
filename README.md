@@ -24,8 +24,3 @@
 ```
 O projeto não possui dependências, para abrir basta usar alguma extensão que abra o código no navegador - sugiro o 'live-server'
 
-</br>
-
-<video src="./src/imagens/projecto-x-men.mp4" controls>
-        Desculpe, seu navegador não suporta a reprodução de vídeos.
-</video>
