@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="../src/imagens/logo.svg">
+    <img src="./src/imagens/logo.svg">
     <p>Olá 👋 Seja Bem-Vindo ao Projeto X-Men 😀 </p>
 </h1>
 
